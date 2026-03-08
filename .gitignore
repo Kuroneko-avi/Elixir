@@ -1,0 +1,84 @@
+# ==========================================
+# C++ 构建产物
+# ==========================================
+# 编译的对象文件
+*.slo
+*.lo
+*.o
+*.obj
+
+# 预编译头文件
+*.gch
+*.pch
+
+# 动态链接库
+*.so
+*.dylib
+*.dll
+
+# 静态链接库
+*.lai
+*.la
+*.a
+*.lib
+
+# 可执行文件
+*.exe
+*.out
+*.app
+
+# ==========================================
+# CMake 缓存和生成文件
+# ==========================================
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# ==========================================
+# 常见的构建目录 (建议将所有编译产物放在 build 目录下)
+# ==========================================
+build/
+build-*/
+out/
+bin/
+lib/
+
+# ==========================================
+# IDE 和编辑器配置文件
+# ==========================================
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# CLion (JetBrains)
+.idea/
+cmake-build-*/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.db
+*.ipch
+
+# ==========================================
+# 操作系统自动生成的文件
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
